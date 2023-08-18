@@ -73,7 +73,7 @@ public:
 		RemainCapacityBit4				= 2048
 	};
 	
-	int autoHibernateMode {0};
+	int autoHibernateMode {15};
 
 	Configuration() = default;
 };
